@@ -18,7 +18,7 @@ beforeEach(() => {
 });
 
 test('check easy', () => {
-  cart.add('5');
+  cart.add('7');
   expect(cartList.getMaxPage(cart, pageInfo)).toStrictEqual(1);
 });
 
