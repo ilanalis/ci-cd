@@ -3,7 +3,7 @@ run-name: PR validating
 on:
   push:
     branches: 
-      -'feature/*'
+      - 'feature/*'
   pull_request:
     branches: [main]
 jobs:
