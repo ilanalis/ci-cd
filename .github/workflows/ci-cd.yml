@@ -2,7 +2,7 @@ name: ci-cd
 run-name: PR validating
 on:
   push:
-    branches:
+    branches: 
       - 'feature/*'
   pull_request:
     branches: [main]
