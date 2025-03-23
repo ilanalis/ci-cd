@@ -1,4 +1,4 @@
-@use "../abstracts/variables";
+@use '../abstracts/variables';
 
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
@@ -7,7 +7,7 @@
 .footer {
   width: 100%;
   position: relative;
-  background-color: variables.$green-light;
+  background-color: variables.$green-medium;
   color: variables.$white-medium;
 }
 
