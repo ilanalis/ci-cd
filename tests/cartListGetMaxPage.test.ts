@@ -24,7 +24,7 @@ test('check easy', () => {
 
 test('check 0', () => {
   pageInfo.itemsOnPage = 0;
-  cart.add('1');
+  cart.add('8');
   expect(cartList.getMaxPage(cart, pageInfo)).toStrictEqual(1);
 });
 
