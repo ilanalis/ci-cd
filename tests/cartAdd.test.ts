@@ -30,6 +30,7 @@ test('check 3 times', () => {
   cart.add('1');
   cart.add('1');
   cart.add('1');
+  // ('//');
   expect(cart.basket).toStrictEqual({ '1': 3 });
 });
 
