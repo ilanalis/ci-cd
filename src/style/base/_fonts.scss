@@ -1,8 +1,15 @@
-@use "../abstracts/variables";
+@use '../abstracts/variables';
 
 // -----------------------------------------------------------------------------
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('./assets/fonts/MontserratAlternates-Regular.ttf') format('ttf');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
 
 h2 {
   color: variables.$green-dark;
