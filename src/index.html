@@ -7,6 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="icon" href="./assets/svg/empty-cart-icon.svg" />
+    <link
+      rel="preload"
+      href="assets/fonts/MontserratAlternates-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
     <title>Online-store</title>
   </head>
   <body class="body">
@@ -31,12 +38,12 @@
           </nav>
         </div>
       </header>
-      <main class="main">
+      <main class="main" ">
         <div class="main__container container" id="page-container"></div>
       </main>
       <section id="promo" class="promo">
         <div class="container">
-          <img class="promo__photo" src="assets/img/eucalypt.webp" alt="eucalypt" loading="lazy" />
+          <img class="promo__photo" src="assets/img/eucalypt.webp" alt="eucalypt" />
           <div class="promo__container">
             <h3 class="promo__title">Get <span>10% OFF</span> on your purchase</h3>
             <div class="promo__descr">Use promo codes:</div>
@@ -64,8 +71,8 @@
               <li class="footer__item"><a href="https://github.com/YuMentsel" target="_blank">Yuliya Mentsel</a></li>
               <li class="footer__item"><a href="https://github.com/lexarudak" target="_blank">Aliaksei Rudak</a></li>
             </ul>
-          </div>
-          <div class="footer__column">
+          </div> 
+        <div class="footer__column">
             <p class="footer__title">RS School</p>
             <ul class="footer__list">
               <li class="footer__item">
@@ -74,7 +81,8 @@
                     class="rs-school__img"
                     alt="RS School logo"
                     src="./assets/svg/rs_school.svg"
-                    width="80"
+                    width="80px"
+                    height="28.56px"
                     loading="lazy"
                 /></a>
               </li>
@@ -91,7 +99,7 @@
         </div>
       </footer>
     </div>
-    <div class="purchase-modal page"></div>
+    <div class="purchase-modal page"></div> 
 
     <!-- templates -->
     <!-- catalog page -->
