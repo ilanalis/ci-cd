@@ -79,7 +79,16 @@ module.exports = {
         generator: {
           filename: 'fonts/[name][ext]',
         },
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'assets/fonts/[name].[hash].[ext]',
+            },
+          },
+        ],
       },
+
       {
         test: /\.(jpe?g|png|webp|gif|svg)$/i,
         use: [
